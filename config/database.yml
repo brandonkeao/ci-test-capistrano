@@ -81,5 +81,8 @@ test:
 production:
   <<: *default
   database: ci-test-and-deploy-to-ec2-capistrano_production
-  username: ci-test-and-deploy-to-ec2-capistrano
-  password: <%= ENV['CI-TEST-AND-DEPLOY-TO-EC2-CAPISTRANO_DATABASE_PASSWORD'] %>
+  username: bkeao
+  password: L3*lan*890
+  host: localhost
+  port: 5432
+#  password: <%= ENV['CI-TEST-AND-DEPLOY-TO-EC2-CAPISTRANO_DATABASE_PASSWORD'] %>
